@@ -32,6 +32,7 @@ def purchaserequisitionform(request):
             'title':'Purchase Requisition Form',
             'person_id': person.person_id,
             'purchase_requisition_id':'PR' + str(pr_id),
+            'year': '2020',
   
         }
     context['user'] = request.user
